@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Float</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main{
+            background: rgb(101, 219, 101);
+            width: 90%;
+            margin: auto;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        .caja{
+            width: 500px;
+            height: 200px;
+            margin: 20px;
+        }
+
+        .img{
+            float: left;
+            width: auto;
+        }
+
+        .text{
+            float: left;
+        }
+
+
+        /*Estilo para articulo*/
+        .articulo{
+            background: rgb(63, 171, 204);
+            width: 500px;
+            margin: auto;
+            padding: 10px;
+        }
+
+
+        .articulo h2{
+            padding: 10px;
+            text-align: center;
+        }
+
+        .articulo img{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="caja img">
+            <img src="https://loremflickr.com/320/240/paris" height="200">
+        </div>
+        <div class="caja text">
+            <h2>Soy un Encabezado</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti minima odit asperiores placeat, doloribus mollitia consequuntur! Corrupti, odit excepturi. Vel, ullam aperiam laborum nam nobis voluptatem tempora quia ratione omnis.
+                
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt dolores blanditiis voluptatum sequi voluptatibus veritatis, consectetur assumenda possimus quae deserunt atque non, distinctio, tempore alias? Dicta quaerat sapiente molestias.
+            </p>
+        </div>
+    </main>
+
+    <article class="articulo">
+        <h2>Encabezado del Articulo</h2>
+        <img src="https://loremflickr.com/320/240/paris" width="200">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At modi necessitatibus nemo fugit sapiente commodi esse, id maiores magni porro et exercitationem delectus perspiciatis odit cupiditate doloremque velit quis similique!
+        </p>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vel excepturi sint quia nulla, placeat distinctio quasi laboriosam modi reiciendis consequuntur a iusto eveniet, magnam eius qui blanditiis nemo atque.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At modi necessitatibus nemo fugit sapiente commodi esse, id maiores magni porro et exercitationem delectus perspiciatis odit cupiditate doloremque velit quis similique!
+        </p>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vel excepturi sint quia nulla, placeat distinctio quasi laboriosam modi reiciendis consequuntur a iusto eveniet, magnam eius qui blanditiis nemo atque.
+        </p>
+    </article>
+</body>
+</html>

@@ -1,0 +1,74 @@
+PROGRAMACION ORINETADO A OBJETOS
+================================
+se compone de estos 4 elementos
+1) Clases ---- Molde de un objeto o sea un modelo de un objeto
+2) Propiedades --- Atributos de un objeto
+3) Metodos ---- Comportamientos de un objeto
+4) Objetos ---- Objetos
+
+Paradigma de POO para crear aplicaciones son
+PILARES DE POO
+1- Encapsulamiento
+2- Abstraccion
+3- Herencia
+4- Polimorfismo
+
+_____________________________________________
+¿QUE ES UN OBJETO?
+los objetos son aquellos que tienen propiedades(Atributos) y
+comportamientos.
+
+<<<<<<<<<<<< Objeto: Automovil >>>>>>>>>>>>>>>>>>
+Propiedades             Comportamiento
+=============          ==========================
+- Nombre                - Mover
+- Color                 - Frenar
+- Modelo                - Girar a la Derecha
+- Tamaño                - Girar a la Izquierda
+- Forma
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Los objetos se pueden identificar de dos formas:
+1- Objetos fisicos
+2- Objetos conceptuales
+
+Objeto: fisicos        Objeto: Conceptual
+Persona                Sistema de un Banco
+=========              ====================
+- Nombre               - Nombre
+- Edad                 - Credito
+- Caminar              - Agregar
+- Hablar               - Eliminar
+
+
+Usuario                Sesion
+=========              ===============
+- Nombre               - Iniciar Ssion
+- Apellido             - Cerrar Sesion
+- Edad                 - Hacer Reporte
+
+
+¿QUE ES UNA CLASE?
+- Es el molde sobre el cual se construye un objeto.
+- Es un molde para objetos
+- De una clase podemos crear muchos objetos
+Para crear una clase debemos de analizar un objeto
+
+PARTES DE UNA CLASE
+- Una clase tiene un nombre (IDENTIDAD)
+- Una clase debe de tener atributos que son del objeto
+- Los comportamientos son los metodos de la clase
+
+Ejmemplo:
+Clase llamada usuarios        |Usuario 1      |Usuario 2
+atributo --> Nombre           |Alex           |Roel
+Metodo ----> Iniciar Sesion   |Iniciar Sesion |Iniciar Sesion
+
+
+
+
+
+
+
+
+

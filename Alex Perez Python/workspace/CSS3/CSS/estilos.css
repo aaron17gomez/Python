@@ -1,0 +1,10 @@
+/*el h1 es el selector de elementos donde vamos ir cambiando*/
+/*primero tenemos el selector y dentro de las llaves va la propiedad y su valor*/
+h1{
+    color: rgb(197, 58, 58);
+    /*modificar el tamaño de la letra*/
+    font-size: 70px;
+    /*cambiar de posicion del texto*/
+    text-align: center;
+}
+

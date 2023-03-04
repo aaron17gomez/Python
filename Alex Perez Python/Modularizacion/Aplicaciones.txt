@@ -1,0 +1,26 @@
+Aplicaciones de la Sección
+Estas son las aplicaciones que se realizaran en esta sección.
+
+Aplicación 01: Secuencia de Fibonacci
+---------------------------------------------------------------------------------------------------
+Crear un modulo que genere una secuencia de Fibonacci, dentro de este módulo crea dos funciones:
+
+La primera función que genere la secuencia de Fibonacci con números
+
+La segunda función que retorne una lista de secuencia de Fibonacci
+
+Aplicación 02: Ejecutar un texto n veces
+---------------------------------------------------------------------------------------------------
+Para crear esta aplicación el texto y cantidad de veces que se va ejecutar este texto lo tenemos que 
+enviar al momento de ejecutar el script de Python.
+
+Aplicación 03: Formatear información
+----------------------------------------------------------------------------------------------------
+Para crear esta aplicación tenemos que enviar nombre, edad y altura los argumentos de script y luego 
+mostrar eses datos con diferentes formas de formateo de información
+
+Aplicación 04: Crear paquete y modulo de aritmética
+-------------------------------------------------------------------------------------------------------
+Para crear esta aplicación que crear un paquete y dentro de este paquete crear un modulo con funciones 
+que realicen operaciones aritméticas y luego importar desde otro modulo que puede ser un módulo principal 
+y reutilizar las funciones del módulo.

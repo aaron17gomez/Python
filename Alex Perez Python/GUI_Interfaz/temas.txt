@@ -1,0 +1,24 @@
+Temas de la seccion
+===================
+-> Crear un entorno virtual
+-> Diseñar con Tkinter
+-> Conexion a BD
+-> Consultas a BD
+-> Empaquetar con Pyinstaller para la distribucion
+
+se usara el interprete de python y librerias externas para cada proyecto.
+
+-> Crear un entorno virtual
+=============================
+como python y librerias de erramienta aparte del sistema
+se crea un entorno virtual para cada proyecto para manejar las versiones de python
+es para manejar las versiones de las librerias
+python -m tutotial -env
+- esta libreria ya viene incluida
+
+en windows para ejecutar usamos:
+<<tutorial-env/Scripts/activate.bat
+o tambien << sourse tutorial-env/bin/activate
+
+
+

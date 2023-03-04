@@ -1,0 +1,25 @@
+MODULARIZACION
+- Modularidad
+- Dividir el programa en diferentes partes modulos/ archivos
+- separar los modulos / archivos en paquetes
+
+cada modulo es el archivo de python 
+podemos colocar funciones en los modulos
+en cada archivo podemos separar como diseñar, logica etc
+cada archivo de python representan modulos
+
+los paqutes son carpetas donde colocamos varios modulos
+
+App escalables
+de aplicacion peque y agreagando mas partes
+
+
+Podemos:
+- Crear modulos
+- Formas de importar modulos
+- Entrada desde Script
+- Formateo de informacion
+- Funcion Dividir
+- Modulo Math
+- Modulo Datetime
+- Paquetes en Pyton

@@ -1,0 +1,18 @@
+QUE ES UNA BASE DE DATOS?
+-> Datos: son palabras o numeros
+-> BD: Coleccion de datos relacionados
+
+COMPONENTES DE UNA BD:
+-> CAMPO: area de almacenamiento, que tiene que ser del mismo tipo
+si se tiene un campo que solo es de numeros se van almacenar los numeros y si es de letras se alamcenaran letras
+-> REDISTRO: coleccion de datos relacionadas, de diferentes tipos
+en un registro exixten diferentes campos
+-> ARCHIVO: coleccion de registros relacionados
+                             
+               campo
+                ||
+Matricula     Nombre    Tel       Edad
+1             Alex      12345      23    <-registro
+ y toda la tabla es un ARCHIVO
+
+ 

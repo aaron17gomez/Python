@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: rgb(224, 82, 82);
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
+            /*pone las letras en minusculas y el uppercase coloca todo en mayuscula*/
+            text-transform: lowercase;
+            font-size: 15px;
+
+            font-style: italic;
+            /*colocando negrita*/
+            font-weight: 800;
+            /*Identando el parrao o sea el espacio de inicio*/
+            text-indent: 40px;
+            /*separa la altura de un parrafo*/
+            line-height: 1.70;
+            /*sepata un espacio por cada palabra*/
+            word-spacing: 10px;
+            /*agg sombra al texto*/
+            text-shadow: 4px 3px 2px rgb(0, 0, 0, 0.50);
+        }
+
+        a{
+            /*none quita la raya del texto*/
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+
+        a:hover{
+            /*cundo pasamos el puntero se vera la linea de referencia que es un enlace*/
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Hola Mundo</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur tempore eum aliquam ipsum hic atque illo? Harum modi molestias vel sit ut sunt placeat omnis quos commodi quibusdam, eveniet a.
+        </p>
+        <a href="">google!!</a>
+    </main>
+</body>
+</html>

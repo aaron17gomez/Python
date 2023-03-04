@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Forularios</h1>
+    <hr>
+    <h2>Formulario 1 sin tabla</h2>
+    <form action="" method="post">
+        <label for="numero">Numero: </label>
+        <input type="number" name="numero" id="numero" placeholder="Ingrese un numero">
+
+
+        <br><br>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="Ingrese su correo">
+
+        <br><br>
+        <label for="pass">Contraseña: </label>
+        <input type="password" name="pass" id="pass" placeholder="Ingrese su contraseña">
+        
+        <br><br>
+        <input type="submit" value="enviar" name="enviar">
+    </form>
+
+    <br><hr>
+    <h2>Formulario 2 con Tabla</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label for="numero">Numero: </label>
+                </td>
+                <td>
+                    <input type="number" name="numero" id="numero" placeholder="Ingrese su numero" required>
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td>
+                    <br>
+                    <label for="nombre">Nombre: </label>
+                </td>
+                
+                <td>
+                    <br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br>
+                    <label for="email">Email: </label>
+                </td>
+                
+                <td>
+                    <br>
+                    <input type="text" name="email" id="email" placeholder="Ingrese su email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br>
+                    <label for="pass">Contraseña: </label>
+                </td>
+                
+                <td>
+                    <br>
+                    <input type="password" name="pass" id="pass" placeholder="Ingrese su contraseña" required>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <br>
+                    <input type="submit" value="enviar" name="enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

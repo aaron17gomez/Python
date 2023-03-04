@@ -1,0 +1,21 @@
+MANEJO DE ERRORES
+==========================
+Donde puede ocurrir un ERROR?
+->Tiempo de interpretacion
+->Tiempo de ejecucion
+
+ERRORES MAS COMUNES SON:
+-> Error de sintaxis
+-> Asignacions incorrectas
+-> No seguir las Reglas
+
+QUE ES UNA EXCEPCION?
+->Una excepcion indica un problema que ocurre durnte la ejecucion de un programa
+-> Una excepcion nos indica cual es el problema y donde se genero ese error
+-> Una excepcion si no lo manejamos lo detendria la ejecucion de un programa
+
+
+MANEJO DE ARCHIVOS
+============================
+-> Manejo de archivos 
+-> Manejo de Base de Datos

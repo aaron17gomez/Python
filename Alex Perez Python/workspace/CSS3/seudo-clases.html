@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seudo Clase</title>
+
+    <style>
+        .menu{
+            background-color: rgb(145, 12, 116);
+        }
+
+        .menu-nav{
+            /*Estilo de la lista*/
+            list-style: none;
+
+        }
+
+        .menu-nav__item{
+            /*cambia de horizontal a vertical*/
+            display: inline-block;
+        }
+
+        .menu-nav__item a{
+            color: white;
+            /*quitar subrayado*/
+            text-decoration: none;
+        }
+
+        /*seudo clases*/
+        /*hover nos ayuda a cambiar el color de un texto cuando el puntero pasa por el texto*/
+        .menu-nav__item a:hover{
+            color: rgb(45, 182, 201);
+        }
+
+        /*active nos ayuda a cambiar el color de un texto cuando le damos clic texto*/
+        .menu-nav__item a:active{
+            color: rgb(177, 241, 25);
+        }
+
+        /*Seudo elemnto*/
+        /*la seudoclases Define el estilo de un estado*/
+        /*con after y content colocamos en el contenido letras o caracteres*/
+        .menu-nav__item a::after{
+            content: " |";
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu-nav">
+                <li class="menu-nav__item"><a href="">Inicio</a></li>
+                <li class="menu-nav__item"><a href="">Trabajos</a></li>
+                <li class="menu-nav__item"><a href="">Blog</a></li>
+                <li class="menu-nav__item"><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <ul>
+                <li>Item</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

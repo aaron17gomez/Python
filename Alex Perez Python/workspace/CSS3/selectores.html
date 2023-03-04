@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+
+    <style>
+        /*selector universal*/
+        *{
+            color: brown;
+            
+        }
+
+        p{
+            color: rgb(102, 194, 84);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        h1,h2{
+            color: rgb(243, 201, 149);
+        }
+
+        .p1{
+            color: brown;
+            font-size: 18px;
+        }
+
+        /*Selector por clases*/
+        .p2{
+            color: rgb(36, 153, 108);
+            font-size: 23px;
+        }
+
+        #subtitulo{
+            color: aqua;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <!--Selector por id y solo puede tener uno mientras que clase podemos tener varios-->
+    <h2 id="subtitulo">Segundo encabezado</h2>
+
+    <!--agregandole un selector a p con class-->
+    <p class="p1 otra">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sapiente amet nam nemo et ab nisi aspernatur, ducimus unde consectetur commodi repellat eligendi distinctio eius deleniti cumque dolore aliquid veniam.</p>
+    <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis error esse quae hic ab facere praesentium iste. Qui tempora non iure iusto, dignissimos vero provident sunt, esse dolores, eos itaque?</p>
+    
+</body>
+</html>
